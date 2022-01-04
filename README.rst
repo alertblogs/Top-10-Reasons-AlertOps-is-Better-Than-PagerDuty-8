@@ -1,40 +1,36 @@
-AlertOps Expert Guidance
+Top 10 Reasons AlertOps is Better Than PagerDuty: #8
 ========
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+Workflows are triggers to actions, and as such, play key roles in incident management. In fact, workflows may be used for any of the following reasons:
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+    Expand on alert management.
+    Notify team members or managers when no one has taken an assignment or when an incident is running up against a service-level agreement (SLA).
+    Create a ticket in a help desk system when an alert is received.
+    Close a ticket in a help desk system when an alert has been closed.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+Generally, workflows are triggered by an event, such as a change in status or the passage of a specific amount of time. The overall effectiveness of workflows, however, depends on the incident management system that an organization has in place.
 
-Automate Processes
-====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+Believe it or not, most incident management system workflows are complex and ineffective. They frequently empower incident management teams to escalate incidents, but these escalations usually look something like this:
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+    When an incident is created, notify Jerry.
+    30 minutes after notifying Jerry, notify Jeff.
+    30 minutes after notifying Jeff, notify Jeff’s mother … and so on …
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+AlertOps workflows are more than just ordinary escalations. The AlertOps incident management and alert escalation software leverages a Workflow engine that powers all incident escalations, ensuring that you can send a notification to JIRA or other external systems any time an event occurs.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+With AlertOps workflows, you can quickly and effortlessly perform the following tasks:
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+    When an incident is created, you can open an issue.
+    When an incident is assigned, you can update the issue status.
+    When an incident is resolved, you can close the status.
 
-1 Red Canary 2021 Threat Detection Report
+All of the aforementioned workflow tasks can be done in JIRA or any other system via the AlertOps REST API. Configure an outbound integration in AlertOps, and you can send notifications to JIRA or any other system and plug these calls into workflows.
+
+AlertOps incident workflows are just one of the many features that make life easier for incident management teams. In addition to improving workflow and process management for your IT operations, AlertOps helps incident management teams set up custom message routing rules, escalations and much more, driving increased productivity and efficiency.
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/alertops-better-than-pagerduty-8/
 
 Read more:
 ====
